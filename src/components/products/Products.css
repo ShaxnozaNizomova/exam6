@@ -1,0 +1,103 @@
+.products__top{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.Title{
+    font-family: 'Quicksand-Regular';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #253D4E;
+}
+.products__select{
+    color: #253D4E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    border: 1px solid #253D4E;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand-Regular';
+    text-transform: capitalize;
+}
+.products__cards{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1430px;
+    align-items: center;
+    margin: 0 auto;
+   justify-content: space-between;
+}
+.card__span{
+    color: #ADADAD;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+.card__title{
+    color: #253D4E;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    line-height: 19px;
+    font-family: 'Quicksand-Regular';
+}
+.card__rating{
+    color: #B6B6B6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.card__brand{
+    color: #3BB77E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.card__price{
+    padding-top: 8px;
+    color: #3BB77E;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Quicksand-Regular';
+}
+.product__card{
+    border: 1px solid #ECECEC;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    width: 260px;
+}
+.product__card:hover {
+    box-shadow: 0 16px 10px rgba(0, 0, 0, 0.1);
+}
+.products__btn{
+    border: 1px solid #3BB77E;
+    border-radius: 4px;
+    background-color: #3BB77E;
+    padding: 12px 15px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.products__btn:hover{
+    background-color: #fff;
+    color: #3BB77E;
+}
+.button-container{
+    text-align: center;
+    margin-bottom: 20px;
+}

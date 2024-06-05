@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.menu__link1{
+    color: #253D4E;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Quicksand-Regular';
+    padding-bottom: 20px;
+}
+.menu__link{
+    color: #364c5c;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 12px;
+}
+.menu__link:hover{
+    color: black;
+    cursor: pointer;
+    font-family: 'Quicksand-Regular';
+}

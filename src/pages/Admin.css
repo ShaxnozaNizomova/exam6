@@ -1,0 +1,121 @@
+.admin{
+    margin: 0 auto;
+    max-width: 1420px;
+}
+.admin__box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.admin__tit{
+    color: #3BB77E;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Quicksand-Regular';
+    padding-top: 40px;
+    padding-bottom:25px ;
+}
+.admin__title{
+    color: #253D4E;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    font-family: 'Quicksand-Regular';
+    padding-bottom:25px ;
+}
+.admin__text{
+    color: #7E7E7E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.admin__span{
+    font-family: 'Quicksand-Regular';
+    color: #253D4E;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.admin__span:hover{
+    cursor: pointer;
+    color: #3BB77E;
+}
+.map img{
+    max-width: 1420px;
+    padding: 40px 0;
+}
+.box__title{
+    color: #3BB77E;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Quicksand-Regular';
+    padding: 15px 0;
+}
+.box{
+    max-width: 350px;
+}
+.products2__btn{
+    border: 1px solid #3BB77E;
+    border-radius: 4px;
+    background-color: #3BB77E;
+    padding: 6px 15px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.products2__btn:hover{
+    background-color: #fff;
+    color: #3BB77E;
+}
+.admin__inputs{
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin: 15px 10px;
+}
+.admin__form{
+    margin-top: 40px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.admin__input{
+  border: 1px solid #ECECEC;
+  width: 800px;
+  height: 300px;
+  border-radius: 10px;
+}
+.admin__btn{
+    border: 1px solid #253D4E;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: #253D4E;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: 'Quicksand-Regular';
+}
+.admin__btn:hover{
+    background-color: #FFF;
+    cursor: pointer;
+    color: #253D4E;
+}

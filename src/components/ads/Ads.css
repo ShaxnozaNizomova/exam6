@@ -1,0 +1,76 @@
+.ads{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.ads__card1{
+    background-image: url(../../assets/images/onions.jpg);
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 450px;
+    height: 280px;
+    align-content: center;
+}
+.ads__card2{
+    background-image: url(../../assets/images/yogurt.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 280px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    align-content: center;
+}
+.ads__card3{
+    background-image: url(../../assets/images/basket.jpg);
+    background-size: cover;
+    width: 450px;
+    height: 280px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    align-content: center;
+}
+.ads__text{
+    color: #253D4E;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 20px;
+    line-height: 28px;
+    font-family: 'Quicksand-Regular';
+}
+.ads__btn{
+    border: 1px solid #3BB77E;
+    border-radius: 4px;
+    background-color: #3BB77E;
+    padding: 10px 15px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 15px;
+    text-align: center;
+}
+@media (min-width: 330px) and (max-width: 480px){
+    .ads{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+ }
+ @media (min-width: 481px) and (max-width: 767px){
+    .ads{
+     max-width: 500px;
+     margin: 0 auto;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 1024px){
+     .ads{
+         max-width: 800px;
+         margin: 0 auto;
+        }
+ }
